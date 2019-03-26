@@ -1,7 +1,7 @@
 :root {
-  --header-color: #2A2E3E;
-	--blue-color: #f5866f;
-	--text-color: #5F6783;
+  --header-color: #111035;
+	--blue-color: #1e19cc;
+	--text-color: rgb(83, 93, 128);
 	--light-color: #F2F2F2;
 	--white-color: #FFFFFF;
 
@@ -10,10 +10,18 @@
 	--weight500: 500;
 	--weight700: 700;
 
-	--font70: 70px;
-	--font28: 28px;
-	--font33: 33px;
-	--font20: 20px;
+	--font70: 60px;
+	--font28: 31px;
+	--font33: 35px;
+	--font20: 24px;
+}
+
+.bg-color {
+	background: var(--blue-color);
+}
+
+.text-center {
+	text-align: center!important;
 }
 
 .logo-sa {
@@ -23,6 +31,12 @@
 	left: 20px;
 	z-index: 888;
 	line-height: 36px;
+}
+
+.logo-sa a {
+	text-decoration: none;
+	color: var(--blue-color);
+	font-family: 'Rubik', sans-serif;
 }
 
 .logo-sa img {
@@ -206,7 +220,15 @@
 
 .text img {
   border: none!important;
-  box-shadow: none!important;
+	box-shadow: none!important;
+	background: transparent!important;
+}
+
+.width100 {
+	max-width: none!important;
+	max-height: none!important;
+	width: auto!important;
+	height: auto!important;
 }
 
 .text ul li {
